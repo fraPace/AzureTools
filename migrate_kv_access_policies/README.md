@@ -12,6 +12,10 @@ The Key Vault Access Policies Migrator is a Python-based tool designed to migrat
 - Python 3.11+
 - Azure CLI
 
+### Azure RBAC Assignments
+The script requires the following Azure RBAC assignments to migrate Key Vault access policies (from most to least privileged):
+- Owner or User Access Administrator or Key Vault Data Access Administrator role (either at subscription, resource group, or resource level).
+
 ## Installation
 1. Clone the repository:
     ```sh

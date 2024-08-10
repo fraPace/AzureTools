@@ -12,6 +12,11 @@ The NSG Scanner is a Python-based tool designed to query all Network Security Gr
 - Python 3.11+
 - Azure CLI
 
+### Azure RBAC Assignments
+The script requires the following Azure RBAC assignments to query NSGs across subscriptions (from most to least privileged):
+- Reader role (either at subscription, resource group, or resource level)
+
+
 ## Installation
 1. Clone the repository:
     ```sh
