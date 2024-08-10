@@ -1,0 +1,5 @@
+azure-identity
+azure-mgmt-keyvault
+azure-mgmt-authorization
+
+pyyaml

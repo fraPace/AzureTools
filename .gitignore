@@ -1,0 +1,8 @@
+.venv/
+
+.idea/
+
+chromedriver/
+output/
+*/config.yaml
+

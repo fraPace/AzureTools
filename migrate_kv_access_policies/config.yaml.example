@@ -1,0 +1,5 @@
+subscription_id: '<subscription_id>'
+vault_name: '<vault_name>'
+resource_group_name: '<resource_group_name>'
+
+
